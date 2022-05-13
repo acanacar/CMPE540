@@ -1,0 +1,23 @@
+//How did i describe state?
+
+states are defined as tuple whose first item as x-coordinate of cleaner location , second item as y-coordinate of cleaner location,
+third item as dictionary consisting of location of dirt (key) and the dirt amount at this (value).
+
+
+//How many states?
+
+cleaner can be any location in grid matrix.
+cleaner positions -> m * n
+
+Amount of dirts can be 9 as max. So we can think amount of dirts as 9 and dirts can be in any location in grid matrix.
+dirts' positions -> (m * n)^^9
+
+total states = (m*n)^^10
+
+
+//What is A*2 heuristic function?
+
+value of heuristic function is the euclidean distance to the nearest dirt point which is determined by manhattan distance.
+
+
+
