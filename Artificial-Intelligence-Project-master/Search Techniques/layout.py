@@ -7,7 +7,7 @@
 # For more info, see http://inst.eecs.berkeley.edu/~cs188/sp09/pacman.html
 
 from util import manhattanDistance
-from game import Grid
+from .game import Grid
 import os
 import random
 
